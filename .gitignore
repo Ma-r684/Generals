@@ -1,0 +1,25 @@
+
+.env
+.env.*
+!.env.hello
+
+# Ignore dependencies
+node_modules/
+**/node_modules/
+
+# Ignore secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Previous Git metadata backup
+frontend/.git-backup/

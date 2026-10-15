@@ -1,0 +1,19 @@
+import React from 'react'
+import {motion} from 'framer-motion'
+
+const Signupage = () => {
+  return (
+    <motion.div
+    initial={{opacity: 0, y:20}}
+    animate={{opacity:1, y:0}}
+    transition={{duration:0.5}}
+    className='mx-w-md w-full bg-gray-800 bg-opacity-50 backdrop-filter backdrop-blur-xl rouded-2xl shadow-xl overflow-hidden'
+    >
+        <div className='p-8'>
+            <h2 className='text-3xl font-bold mb-6 text-center bg-gradient-to-r from-gold-400 to-emerald-500 text-transparent bg-clip-text'>Create Account</h2>
+        </div>
+    </motion.div>
+  )
+}
+
+export default Signupage
